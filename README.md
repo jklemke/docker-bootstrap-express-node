@@ -3,5 +3,8 @@ A basic express-node.js web site running inside a docker container. www director
 
 ###
 a number of shells scripts are included for docker trial and error testing
+   `docker build -t bootstrap .` to create an image called bootstrap
+   
+   
 
 
