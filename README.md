@@ -8,7 +8,7 @@ A basic express-node.js web site running inside a docker container. The www dire
 
    `drun.sh`  to run a container called bootstrap001 with a www volume of html and js files from the host system, using command 
       
-       docker run -it -p 8787:8787 -v $(pwd)/www:/home/node/app/www  --name bootstrap001 bootstrap
+       docker run -it -d -p 8787:8787 -v $(pwd)/www:/home/node/app/www  --name bootstrap001 bootstrap
    
    `dbash.sh` to run a bash shell inside the container, using command 
    
