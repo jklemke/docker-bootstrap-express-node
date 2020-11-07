@@ -10,7 +10,7 @@ A basic express-node.js web site running inside a docker container. www director
    
    `dstop.sh`  to stop the container, using command `docker stop bootstrap001`
 
-  `dteardown` to remove the container and image using command ``
+  `dteardown.sh` to remove the container and image using command `docker rm -f bootstrap001` and `docker rmi bootstrap`
    
 
 
