@@ -1,5 +1,5 @@
 # docker-bootstrap-express-node
-A basic express-node.js web site running inside a docker container. The www directory in this project holds html and js files that are visible as a volume inside the container.
+A basic express-node.js web site running inside a docker container. The www directory in this project holds html and js files that are visible as a volume inside the container. The [https://getbootstrap.com/](bootstrap) HTML toolkit is used.
 
 #### a number of shell scripts are included for docker trial and error testing
    `dbuild.sh` to create an image called bootstrap, using command
