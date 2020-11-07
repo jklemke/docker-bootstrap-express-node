@@ -20,9 +20,9 @@ A basic express-node.js web site running inside a docker container. The www dire
 
   `dteardown.sh` to remove the container and image using command 
 
-      docker rm -f bootstrap001`
+      docker rm -f bootstrap001
      
-      docker rmi bootstrap`
+      docker rmi bootstrap
    
 
 
