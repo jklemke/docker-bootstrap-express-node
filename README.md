@@ -4,7 +4,7 @@ A basic express-node.js web site running inside a docker container. The www dire
 #### a number of shells scripts are included for docker trial and error testing
    `dbuild.sh` to create an image called bootstrap, using command
       
-      `docker build -t bootstrap .` 
+       docker build -t bootstrap .  
 
    `drun.sh`  to run a container called bootstrap001 with a www volume of html and js files from the host system, using command 
       
