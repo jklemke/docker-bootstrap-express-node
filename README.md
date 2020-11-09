@@ -20,7 +20,7 @@ It can be a challenge to digest all of info an docker volumes.  To oversimplify:
    
        docker stop bootstrap001 
 
-  `dteardown.sh` to remove the container and image using command 
+  `dteardown.sh` to remove the container and image (keeping the node debian image) using command 
 
       docker rm -f bootstrap001
      
