@@ -8,7 +8,7 @@ It can be a challenge to digest all of info an docker volumes.  To oversimplify:
       
        docker build -t bootstrap .  
 
-   `drun.sh`  to run a container called bootstrap001 with the www/html and www/jw directories from the host machine available as a volume of in the container, using command 
+   `drun.sh`  to run a container called bootstrap001 with the www/html and www/js directories from the host machine available as a volume of in the container, using command 
       
        docker run -it -d -p 8787:8787 -v $(pwd)/www:/home/node/app/www  --name bootstrap001 bootstrap
    
