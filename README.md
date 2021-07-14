@@ -1,7 +1,7 @@
 # docker-bootstrap-express-node
 A basic express-node.js web site running inside a docker container. The www directory in this project holds html and js files that are visible as a volume inside the container. The [bootstrap](https://getbootstrap.com/) HTML toolkit is used.
 
-It can be a challenge to digest all of the information an docker volumes.  To oversimplify: don't use the VOLUME command in a Dockerfile. Instead, create a volume as a -v parameter of the `docker run` command, or graduate to docker-compose.yml and specify your volumes there.
+It can be a challenge to digest all of the information on docker volumes.  To oversimplify: don't use the VOLUME command in a Dockerfile. Instead, create a volume as a -v parameter of the `docker run` command, or graduate to docker-compose.yml and specify your volumes there.
 
 #### a number of shell scripts are included for docker trial and error testing
    `dbuild.sh` to create an image called bootstrap, using command
